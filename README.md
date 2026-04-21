@@ -325,21 +325,4 @@ mininet> exit
 - Internet (for first setup only)
 - Ability to run `sudo` commands
 
-## 🔧 Troubleshooting
-
-**Problem:** "ModuleNotFoundError: No module named 'scapy'"
-- **Solution:** Make sure you activated the virtual environment: `source venv/bin/activate`
-
-**Problem:** "Permission denied" or "This program requires root/sudo privileges"
-- **Solution:** Always use `sudo` for these scripts
-
-**Problem:** Mininet won't start or says "Cannot find controller"
-- **Solution:** This is expected - just run the mininet commands anyway, they still work
-
-**Problem:** "Command not found: mininet"
-- **Solution:** Install mininet first: `sudo apt-get install mininet`
-
----
-
-All files ready to use! Good luck with your presentation! 👍
 
